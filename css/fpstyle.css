@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+    color: #FF6B00;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #FF6B00;
+    
+}
+span {
+    font-family: "Roboto";
+}
+/* Сделали фон на всю ширину экрана в футере */
+.header_top, .header_nav, .main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.header_top_nav {
+    display: flex;
+    padding-top: 10px;
+}
+
+.header_top_btn {
+    padding: 15px 40px;
+    outline: 1px solid #FF6B00;
+    border-radius: 30px;
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.header_top_link {
+    padding-top: 15px;
+    text-decoration: underline;
+    color: #FF6B00;
+}
+
+.header_title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(/img/fp_header_logo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.header_title_text {
+    font-family: "Roboto";
+    font-size: 46px;
+}
+
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_nav_flex {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.header_part_link {
+    width: 50%;
+    padding: 40px 17px 20px 17px;
+    background-color: #FF6B00;
+    text-align: center;
+    color: white;
+    overflow: visible;
+}
+
+.header_part_link:nth-child(even) {
+    margin-left: 70px;
+}
+
+.header_text_link {
+    color: white;
+    font-family: "Roboto";
+}
+
+/* main */
+
+.main_top_text_span {
+    margin-top: 30px;
+    display: block;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.main_content_first {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_first_text {
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.main_content_first_text_span {
+    font-size: 22px;
+    
+}
+
+.main_content_btn {  
+    margin-top: 30px;
+}
+
+.content_btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 40px;
+    outline: 1px solid #FF6B00;
+    border-radius: 30px;
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main_content_second_header {
+    display: flex;
+    justify-content: start;
+}
+
+.main_content_second_header_text {
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+
+.main_content_second {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_content_second_text_span {
+    font-size: 19px;
+    
+}
+
+.main_content_second_photo {
+    margin-left: 50px;
+}
+
+.main_content_third {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.main_content_third_part {
+    width: 25%;
+    margin-right: 20px;
+    font-size: 18px;
+    
+}
+/* поправить костыль с одним уровнем текста */
+.content_third_text {
+    margin-top: 58px;
+    
+}
+
+.content_center {
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 50px;
+    background-image: url(/img/fp_footer_logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer_phone {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_phone_logo {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_phone_text {
+    color: black;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+
+.footer_phone_text_link {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.footer_email {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_email_logo {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/mail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.footer_email_text_link {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
