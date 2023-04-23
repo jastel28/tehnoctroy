@@ -41,7 +41,6 @@ span {
     margin-bottom: 10px;
 }
 
-
 .header_top_nav {
     display: flex;
     padding-top: 10px;
@@ -78,8 +77,8 @@ span {
 .header_title_text {
     font-family: "Roboto";
     font-size: 46px;
+    
 }
-
 
 .header_flex {
     display: flex;
@@ -92,7 +91,6 @@ span {
     text-align: center;
 }
 
-
 .header_part {
     width: 10%;
     padding: 40px 17px 20px 17px;
@@ -100,7 +98,6 @@ span {
     text-align: center;
     color: white;
     overflow: visible;
-    
 }
 
 .header_part_grow {
@@ -118,95 +115,23 @@ span {
 
 /* main */
 
-.main_top_text_span {
-    margin-top: 30px;
-    display: block;
-    font-family: "Roboto";
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-.main_content_first {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_content_first_text {
-    margin-left: 100px;
-    text-align: justify;
-}
-
-.main_content_first_text_span {
-    font-size: 22px;
-    
-}
-
-.main_content_btn {  
-    margin-top: 30px;
-}
-
-.content_btn {
-    display: block;
-    margin: 0 auto;
-    padding: 15px 40px;
-    outline: 1px solid #FF6B00;
-    border-radius: 30px;
-    font: inherit;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.main_content_second_header {
-    display: flex;
-    justify-content: start;
-}
-
-.main_content_second_header_text {
-    font-weight: bold;
-    margin-left: 50px;
-    padding-top: 30px;
-}
-
-
-.main_content_second {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-}
-
-.main_content_second_text_span {
-    font-size: 19px;
-    
-}
-
-.main_content_second_photo {
-    margin-left: 50px;
-}
-
-.main_content_third {
+.flex {
     display: flex;
     justify-content: space-between;
-
-    margin-top: 70px;
 }
 
-.main_content_third_part {
-    width: 25%;
-    margin-right: 20px;
-    font-size: 18px;
-    
-}
-/* поправить костыль с одним уровнем текста */
-.content_third_text {
-    margin-top: 58px;
-    
+.btn {
+    margin-top: -8px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FF6B00;
+    color: white;
+    font-family: "Roboto";
 }
 
-.content_center {
-    text-align: center;
+.btn > a {
+    color: white;
 }
 
 /* footer */
@@ -265,7 +190,6 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .footer_email_text_link {
     color: white;

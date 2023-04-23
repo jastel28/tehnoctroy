@@ -23,35 +23,34 @@ button:hover {
 /* Хедер */
 
 .header {
+    width: 90%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 70px;
 }
 .header_flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header_logo {
-    width: 19%;
-    margin-top: 60px;
+    flex-grow: 2;
+    margin-top: 50px;
+    text-align: center;
 }
 
 
-.header_part_link {
-    width: 25%;
+.header_part {
+    width: 10%;
     padding: 40px 17px 20px 17px;
-
-    background-color: #FF6B00;
-    
+    background-color: #FF6B00; 
     text-align: center;
     color: white;
     overflow: visible;
+    
 }
 
-.header_part_link:nth-child(even) {
-    margin-left: 70px;
+.indent {
+    margin-right: 80px;
 }
 
 .header_text_link {

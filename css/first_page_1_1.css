@@ -30,7 +30,7 @@ span {
 }
 
 .header {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .header_top {
@@ -40,7 +40,6 @@ span {
     padding-top: 10px;
     margin-bottom: 10px;
 }
-
 
 .header_top_nav {
     display: flex;
@@ -80,7 +79,6 @@ span {
     font-size: 46px;
 }
 
-
 .header_flex {
     display: flex;
     justify-content: space-between;
@@ -92,7 +90,6 @@ span {
     text-align: center;
 }
 
-
 .header_part {
     width: 10%;
     padding: 40px 17px 20px 17px;
@@ -100,7 +97,6 @@ span {
     text-align: center;
     color: white;
     overflow: visible;
-    
 }
 
 .header_part_grow {
@@ -118,34 +114,9 @@ span {
 
 /* main */
 
-.main_top_text_span {
-    margin-top: 30px;
-    display: block;
-    font-family: "Roboto";
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-.main_content_first {
-    margin-top: 50px;
+.main_first_part, .main_second_part, .main_third_part, .main_fouth_part, .main_fifth_part {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_content_first_text {
-    margin-left: 100px;
-    text-align: justify;
-}
-
-.main_content_first_text_span {
-    font-size: 22px;
-    
-}
-
-.main_content_btn {  
-    margin-top: 30px;
+    justify-content: space-between;
 }
 
 .content_btn {
@@ -159,54 +130,87 @@ span {
     cursor: pointer;
 }
 
-.main_content_second_header {
-    display: flex;
-    justify-content: start;
+.main_first_part_photo {
+    margin-right: 70px;
 }
 
-.main_content_second_header_text {
+.first_part_text {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.first_part_text:last-child {
+    margin-bottom: 0px;
+}
+
+
+.first_part_text_caps {
+    text-transform: uppercase;
+}
+
+.first_part_text_bold {
     font-weight: bold;
-    margin-left: 50px;
-    padding-top: 30px;
+}
+/* поправить костыль с кнопкной, добавить кнопку в first_part */
+.main_content_btn {
+    margin-bottom: 80px;
+    margin-left: 500px;
 }
 
-
-.main_content_second {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
+.main_second_part {
+    margin-bottom: 80px;
 }
 
-.main_content_second_text_span {
-    font-size: 19px;
+.second_part_text {
+    display: block;
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.main_third_part {
+    margin-bottom: 100px;
+}
+
+.main_third_part_text {
+    width: 30%;
     
 }
 
-.main_content_second_photo {
-    margin-left: 50px;
+.third_part_text {
+    font-size: 20px;
 }
 
-.main_content_third {
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 70px;
+.main_content_btn_third {
+    padding-top: 100px;
 }
 
-.main_content_third_part {
-    width: 25%;
-    margin-right: 20px;
-    font-size: 18px;
-    
-}
-/* поправить костыль с одним уровнем текста */
-.content_third_text {
-    margin-top: 58px;
-    
+.main_fouth_part {
+    margin-bottom: 70px;
 }
 
-.content_center {
-    text-align: center;
+.main_fouth_part_photo, .main_fouth_part_text {
+    width: 48%;
+}
+
+.main_fouth_part_photo {
+    background-image: url(../img/fp_1_1_fifth.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fouth_part_text {
+    background-color: #FF6B00;
+    padding: 20px 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.main_fifth_part_text {
+    font-size: 20px;
+    text-align: justify;
 }
 
 /* footer */
@@ -265,7 +269,6 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .footer_email_text_link {
     color: white;

@@ -24,7 +24,7 @@ span {
     font-family: "Roboto";
 }
 /* Сделали фон на всю ширину экрана в футере */
-.header_top, .header_nav, .main {
+.header_top, .header_nav {
     width: 90%;
     margin: 0 auto;
 }
@@ -40,7 +40,6 @@ span {
     padding-top: 10px;
     margin-bottom: 10px;
 }
-
 
 .header_top_nav {
     display: flex;
@@ -66,20 +65,21 @@ span {
 }
 
 .header_title {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-align: center;
     text-transform: uppercase;
     background-image: url(../img/fp_header_logo.jpg);
     background-size: cover;
     color: white;
+    font-weight: bold;
 }
 
 .header_title_text {
     font-family: "Roboto";
     font-size: 46px;
+    color: white;
 }
-
 
 .header_flex {
     display: flex;
@@ -92,7 +92,6 @@ span {
     text-align: center;
 }
 
-
 .header_part {
     width: 10%;
     padding: 40px 17px 20px 17px;
@@ -100,7 +99,6 @@ span {
     text-align: center;
     color: white;
     overflow: visible;
-    
 }
 
 .header_part_grow {
@@ -114,100 +112,36 @@ span {
 
 .header_text_link {
     color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 16px;
 }
 
 /* main */
 
-.main_top_text_span {
-    margin-top: 30px;
-    display: block;
-    font-family: "Roboto";
-    font-size: 20px;
-    text-align: justify;
-
+.uk-width-3-4 {
+    width: 50%;
 }
 
-.main_content_first {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.uk-position-center {
+    padding: 200px;
 }
 
-.main_content_first_text {
-    margin-left: 100px;
-    text-align: justify;
+.photo_text {
+    text-align: right;
 }
 
-.main_content_first_text_span {
-    font-size: 22px;
-    
+.photo_text > h2 {
+    color: #FF6B00;
 }
 
-.main_content_btn {  
-    margin-top: 30px;
-}
-
-.content_btn {
-    display: block;
-    margin: 0 auto;
-    padding: 15px 40px;
-    outline: 1px solid #FF6B00;
-    border-radius: 30px;
-    font: inherit;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.main_content_second_header {
-    display: flex;
-    justify-content: start;
-}
-
-.main_content_second_header_text {
-    font-weight: bold;
-    margin-left: 50px;
-    padding-top: 30px;
-}
-
-
-.main_content_second {
-    margin-top: 5px;
+.photo_bottom_text {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.main_content_second_text_span {
-    font-size: 19px;
-    
-}
 
-.main_content_second_photo {
-    margin-left: 50px;
-}
-
-.main_content_third {
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 70px;
-}
-
-.main_content_third_part {
-    width: 25%;
-    margin-right: 20px;
-    font-size: 18px;
-    
-}
-/* поправить костыль с одним уровнем текста */
-.content_third_text {
-    margin-top: 58px;
-    
-}
-
-.content_center {
-    text-align: center;
-}
 
 /* footer */
 
@@ -265,7 +199,6 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .footer_email_text_link {
     color: white;
